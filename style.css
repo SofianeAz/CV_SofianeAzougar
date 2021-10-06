@@ -1,0 +1,202 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+@font-face 
+
+{
+	font-family: 'Nunito';
+	src: url("font/Nunito-Regular.woff");
+	src: url("font/Nunito-Italic.woff");
+	src: url("font/Nunito-Bold.woff");
+
+	font-weight: normal;
+	font-size: normal;
+}
+
+
+body{
+	display: flex;
+	justify-content: center;
+
+}
+
+#top{
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 20vh;
+	width: 99vw;
+	background-image:linear-gradient(to right, rgb(17, 233, 233), rgb(10, 199, 255));
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* ce qu'il y a dans le top */
+
+#photo
+{
+	width: 180px;
+	height:180px;
+	background-color: white;
+	-webkit-border-radius:70px;
+	-moz-border-radius:70px;
+	-o-border-radius:70px;
+	border-radius:70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Nunito;
+
+}
+
+#picid{
+	width: 180px;
+	height: 180px;
+		-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	border-radius:100px;
+}
+
+#profile
+{
+	margin-left: 10vw;
+	margin-right: 10vw;
+	width:40vw;
+	height:18vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-family: Nunito;
+	color: white;
+}
+
+
+#contact
+{
+	width:30vw;
+	height:18vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	font-family: Nunito;
+	color: white;
+
+}
+
+
+#mid
+{
+	height: 68vh;
+	width: 99vw;
+	font-family: Nunito;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#midleft
+{
+	height: 68vh;
+	width: 2vw;
+background-image: linear-gradient(19deg, #05e1f5 16.67%, #ffffff 16.67%, #ffffff 33.33%, #64f3fa 33.33%, #64f3fa 50%, #05e1f5 50%, #05e1f5 66.67%, #ffffff 66.67%, #ffffff 83.33%, #64f3fa 83.33%, #64f3fa 100%);
+background-size: 92.15px 31.73px;
+}
+
+#mid2
+{
+	height: 68vh;
+	width: 42.5vw;
+	font-family: Nunito;
+}
+
+#mid3
+{
+	height: 68vh;
+	width: 42.5vw;
+	font-family: Nunito;
+}
+
+.col
+{
+	height: 22vh;
+	width: 42.5vw;
+}
+
+
+/* ce qu'il y a dans le mid */
+
+#bottom
+{
+	height: 10vh;
+	width: 99vw;
+	background-image:linear-gradient(to right, rgb(17, 233, 233), rgb(10, 199, 255));
+	font-family: Nunito;
+}
+
+.midtitles
+{
+	font-family: Nunito;
+	padding-left: 2.3vw;
+	color: white;
+	background-image:linear-gradient(to right, rgb(17, 233, 233), rgb(10, 199, 255));
+}
+
+progress-bar[value] {
+  -webkit-appearance: none;
+}
+::-webkit-progress-bar {
+
+   
+}
+
+.flag2{
+	height: 5vh;
+	width: 42.5vw ;
+}
+
+#flag
+{
+	height: 3vh;
+	width: 2vw ;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+img {
+	max-width: 80%;
+	height: auto;
+}
+
+span > img
+{
+	max-width: 50%;
+	max-height: 50%;
+}
+
+#interest
+{
+	height:	20vh ;
+	width: 40vw;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.con{
+	height: 2vh;
+	width: 1vw;
+		max-width: 50%;
+	max-height: 50%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+
+
