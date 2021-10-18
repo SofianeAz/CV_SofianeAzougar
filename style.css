@@ -198,5 +198,9 @@ span > img
 	justify-content: space-between;
 }
 
+ul, li{
+	margin-left: 10px;
+}
+
 
 
