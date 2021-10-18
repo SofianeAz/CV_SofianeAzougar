@@ -1,7 +1,7 @@
 *
 {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 
 }
 
@@ -21,6 +21,7 @@
 body{
 	display: flex;
 	justify-content: center;
+	margin-left: -17px;
 
 }
 
@@ -32,6 +33,7 @@ body{
 	background-image:linear-gradient(to right, rgb(17, 233, 233), rgb(10, 199, 255));
 	display: flex;
 	justify-content: flex-start;
+	box-shadow: #9abfc233 5px 5px;
 }
 
 /* ce qu'il y a dans le top */
@@ -40,7 +42,8 @@ body{
 {
 	width: 180px;
 	height:180px;
-	background-color: white;
+	margin-left: 10px;
+	background-color: rgb(205, 227, 240);
 	-webkit-border-radius:70px;
 	-moz-border-radius:70px;
 	-o-border-radius:70px;
@@ -48,7 +51,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: Nunito;
+	font-family: 'Nunito';
 
 }
 
@@ -104,8 +107,8 @@ body{
 {
 	height: 68vh;
 	width: 2vw;
-background-image: linear-gradient(19deg, #05e1f5 16.67%, #ffffff 16.67%, #ffffff 33.33%, #64f3fa 33.33%, #64f3fa 50%, #05e1f5 50%, #05e1f5 66.67%, #ffffff 66.67%, #ffffff 83.33%, #64f3fa 83.33%, #64f3fa 100%);
-background-size: 92.15px 31.73px;
+	border-radius: 50%;
+	
 }
 
 #mid2
@@ -113,6 +116,7 @@ background-size: 92.15px 31.73px;
 	height: 68vh;
 	width: 42.5vw;
 	font-family: Nunito;
+	
 }
 
 #mid3
@@ -137,6 +141,7 @@ background-size: 92.15px 31.73px;
 	width: 99vw;
 	background-image:linear-gradient(to right, rgb(17, 233, 233), rgb(10, 199, 255));
 	font-family: Nunito;
+	box-shadow: #9abfc233 5px 5px;
 }
 
 .midtitles
@@ -145,6 +150,7 @@ background-size: 92.15px 31.73px;
 	padding-left: 2.3vw;
 	color: white;
 	background-image:linear-gradient(to right, rgb(17, 233, 233), rgb(10, 199, 255));
+	box-shadow: #9abfc233 5px 5px;
 }
 
 progress-bar[value] {
@@ -174,7 +180,7 @@ img {
 	height: auto;
 }
 
-span > img
+p > img
 {
 	max-width: 50%;
 	max-height: 50%;
@@ -203,4 +209,13 @@ ul, li{
 }
 
 
+#powersbars{
+	padding: 5px;
+	margin:auto;
 
+}
+
+#file{
+	display: flex;
+	justify-content: center;
+}
