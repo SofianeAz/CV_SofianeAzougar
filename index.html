@@ -1,6 +1,7 @@
 <!DOCTYPE Html>
 <html>
      <head>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
           <title>CV de Sofiane AZOUGAR</title>
           <meta charset="utf-8" />
           <link rel="stylesheet" href="style.css" />
@@ -8,18 +9,19 @@
 <body>
      <div>
           <div id="top">
-               <div id="photo"><img src="img/photocv.png" id="picid"/></div>
+               <div id="photo"><img src="img/1652299097753.jpg" id="picid"/></div>
                <div id="profile">
                     <h1> Sofiane AZOUGAR </h1>
-                    <h2> Web Developpeur </h2>
-                    <p>Novice dans l'informatique et débutant dans le code, je souhaite me consacrer totalement au web development et devenir un expert dans le domaine.</p>
+                    <h2>  Développeur Web </h2>
+                    <h3 class="flexrow column align w100">&nbsp;Novice dans l'informatique et débutant dans le code, je souhaite me consacrer totalement au web development et devenir un expert dans le domaine.</h3>
                </div>
-               <div id="contact">
+               <div id="contact" class="flexcol space-even">
                     <h2>Contact</h2>
                          <div id="contact2">
-                              <p><img src="img/tel.png" class="con" >Num.Tel: 07 81 21 01 36</p>
-                              <p><img src="img/mail.png" class="con" >Mail: Sofiane.Azougar@gmail.com</p>
-                              <p><img src="img/adresse.png" class="con" >54500 Vandoeuvre-lès-Nancy</p>
+                              <div class="flexrow space-around align w100"><i class="flexrow justify align bi bi-telephone w10"></i><p class="flexrow w100">&nbsp;&nbsp;07 81 21 01 36</p></div>
+                              <div class="flexrow space-around align w100"><i class="flexrow justify align bi bi-envelope w10"></i><p class="w100">&nbsp;&nbsp;Sofiane.Azougar@gmail.com</p></div>
+                              <div class="flexrow space-around align w100"><i class="flexrow justify align bi bi-house w10"></i><p class="w100">&nbsp;&nbsp;54000 Nancy</p></div>
+                              <div class="flexrow space-around align w100"><i class="flexrow justify align bi bi-globe w10"></i><p class="w100">&nbsp;&nbsp;https://sofianeaz.com</p></div>
                          </div>
                </div>
           </div>
@@ -31,36 +33,51 @@
                     <br/>
                     <div class="col"> <h2 class="midtitles">COMPETENCES</h2>
                          <br/>
-                                        <ul>
-                                             <li>Front-End: HTML5, CSS3, JS.</li>
-                                             <li>Back-End: PHP, Symfony, MySQL.</li>                                             
-                                             <li>Librairie: BootStrap(jQuery), w3, react/vue.js Angular, Symfony.</li>
-                                             <li>Utilisation de Git.</li>
-                                             <li>Travail d'équipe.</li>
-                                        </ul>
+                         <div class="flexrow space-even"> 
+                              <div class="flexrow column align">
+                                        <h3>Front-End</h3>
+                                        <h4 class="blue-font">Langages</h4>
+                                        <p>  HTML5, CSS3, JS, SCSS.</p><br>
+                                        <h4 class="blue-font">Librairies / Frameworks</h4>
+                                        <p>BootStrap, React.Js, Vue.Js, W3CSS</p>
+                              </div>
+                              <div class="flexrow column align">
+                                   <h3>Back-End</h3>
+                                   <h4 class="blue-font">Langages</h4>
+                                   <p>  PHP8, MySQL.</p><br>
+                                   <h4 class="blue-font">Librairies / Frameworks</h4>
+                                   <p>Laravel, Symfony, NodeJS</p>
+                              </div>
+                         
+                         </div>
                     </div>
                     <div class="col"> <h2 class="midtitles">EXPERIENCES</h2>
                          <br/>
-                                   <ul>
-                                        <li> 2021-2022 Formation de Developpement Web et Web Mobile. - (54) Nancy </lI>
-                                        <li> 2021 INTERIM - IZIWORK Nettoyage industriel (GSF) - (54) Neuves-maison. </li>
-                                        <li> 2021 INTERIM - ADREXO Distributeur de plie - (54) Laneuville-Devant-Nancy. </li>
-                                        <li> Periode - COVID19 </li>
-                                        <li> 2018-2020 7 Informatique - Dépannage & Maintenance Informatique - (34) Sète </li>
-                                        <li> 2017-2018  INTERIM - Preparateur de commandes - (34) Sète </li>
-                                        <li> 2012-2015 Technicien informatique @COPYANDCOM - (54) Nancy  </li>
+                                   <ul class="flexrow column align justify">
+                                        <h3 class="flexrow justify w100"> Visitez mon portfolio - www.sofianeaz.com</h3><br/>
+                                        <p class="flexrow  w70"> 2022 Stage en entreprise - SI Consulting Nancy - Developpement web</p>
+                                        <p class="flexrow  w70"> 2020 Periode - COVID19 </p>
+                                        <p class="flexrow  w70"> 2016-2020 INTERIM - Emplois divers (non-lié à l'informatique) </p>
+                                        <p class="flexrow  w70"> 2012-2015 Technicien informatique @COPYANDCOM - (54) Nancy  </p>
                                    </ul>
                     </div>
                     <br/>
-                    <div class="col"> <h2 class="midtitles">INFORMATIQUE</h2> 
-                         <br/>                       
+                    <div class="col"> <h2 class="midtitles">NIVEAUX DE COMPETENCES</h2> 
+                         <br/>            
+                         <div class="flexrow space-even">           
                                    <div id="powerbars">
-                                        <label for="file">HTML5/ CSS3: </label><progress id="file" max="100" value="95"> 95% </progress>
-                                        <label for="file">Java-Script: </label><progress id="file" max="100" value="75"> 75% </progress>
-                                        <label for="file">PHP / MYSQL: </label><progress id="file" max="100" value="70"> 70% </progress>
-                                        <label for="file">BootStrap  : </label><progress id="file" max="100" value="75"> 75% </progress>
+                                        <label for="file">HTML5 / CSS3: </label><progress id="file" max="100" value="95"> 95% </progress>
+                                        <label for="file">JavaScript: </label><progress id="file" max="100" value="90"> 90% </progress>
+                                        <label for="file">PHP8 : </label><progress id="file" max="100" value="90"> 90% </progress>
+                                        <label for="file">MYSQL : </label><progress id="file" max="100" value="90"> 90% </progress>
                                     
                                    </div>
+                                   <div id="powerbars">
+                                        <label for="file">React.js: </label><progress id="file" max="100" value="50"> 50% </progress>
+                                        <label for="file">Laravel: </label><progress id="file" max="100" value="50"> 50% </progress>
+                                    
+                                   </div>
+                         </div>
                     </div>
                </div>
                <div id="mid3">
@@ -68,29 +85,28 @@
                     <div class="col"><h2 class="midtitles">LANGUES</h2>
                          <br/>
                          <ul>
-                              <div class="flag2"><img src="img/drapeau-france.jpg" id="flag" /><li> <p> Français / Courant</p></div></li>
-                              <div class="flag2"><img src="img/drapeau-anglais.jpg" id="flag" /> <li> <p> Anglais / Courant</p></div></li>
+                              <div class="flag2 flexrow space-even align"><img src="img/drapeau-france.jpg" id="flag" /> <p class="blue-font"> Français / Courant</p></div>
+                              <div class="flag2 flexrow space-even align"><img src="img/drapeau-anglais.jpg" id="flag" />  <p> Anglais /  Courant</p></div>
                          </ul>
 
                     </div>
                     <div class="col"><h2 class="midtitles">FORMATION</h2>
-                         <br/>
-                              <ul>
-                                  <li><p>Formation niveau BAC+2 Developpement web et web mobile (Frontend & Backend) - AFPA Pompey.</p></li>
-                                  <li><p>BAC PRO: Telecommunication & Reseau - Lycée pro. Jean Prouvé à Nancy.</p></li>
-                                  <li><p>BEP Electronique - Lycée pro. Jean Prouvé à Nancy.</p></li>
-                              </ul>
+                              <div class="flexrow column align justify"><br/>
+                                  <h4 class="w100">Formation niveau BAC+2 Developpement web et web mobile (Frontend & Backend) - AFPA Pompey.</h4><br/>
+                                  <h4 class="w100">BAC PRO: Telecommunication & Reseau - Lycée pro. Jean Prouvé à Nancy.</h4><br/>
+                                  <h4 class="w100">BEP Electronique - Lycée pro. Jean Prouvé à Nancy.</h4><br/>
+                              </div>
 
                                               
                      </div>
                     <div class="col"><h2 class="midtitles">CENTRES D'INTERET</h2>
                          <br/>
                          <div id="interest">
-                                   <span> <img src="img/football.png"/><p> Football </p> </span>
-                                   <span> <img src="img/esports.png"/><p>eSports</p> </span>
-                                   <span> <img src="img/voyages.png"/><p>Voyages</p> </span>
-                                   <span> <img src="img/cafe.png"/><p>Café</p> </span>
-                                   <span> <img src="img/netflix.png"/><p>Netflix</p></span>
+                                   <span> <img src="img/football.png"/><p class="blue-font"> Football </p> </span>
+                                   <span> <img src="img/esports.png"/><p class="blue-font">eSports</p> </span>
+                                   <span> <img src="img/voyages.png"/><p class="blue-font">Voyages</p> </span>
+                                   <span> <img src="img/cafe.png"/><p class="blue-font">Café</p> </span>
+                                   <span> <img src="img/netflix.png"/><p class="blue-font">Netflix</p></span>
                              </div>
                          <br/>
                     </div>

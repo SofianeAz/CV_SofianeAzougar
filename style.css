@@ -1,8 +1,44 @@
-*
+*, *::after, *::before
 {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 
+}
+
+.justify {
+	justify-content: center;
+}
+
+.align{
+	align-items: center;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.column{
+	flex-direction: column;
+}
+
+
+.w50{
+	width: 50%;
+}
+
+.w10{
+	width: 10%;
+}
+
+.w20{
+	width: 20%;
+}
+.w70{
+	width: 70%;
+}
+.w100{
+	width: 100%;
 }
 
 @font-face 
@@ -15,6 +51,10 @@
 
 	font-weight: normal;
 	font-size: normal;
+}
+
+.blue-font {
+	color: rgb(10, 199, 255);
 }
 
 
@@ -38,16 +78,17 @@ body{
 
 /* ce qu'il y a dans le top */
 
+.flexrow {
+	display: flex;
+}
 #photo
 {
-	width: 180px;
-	height:180px;
+	display: flex;
+	width: 200px;
+	height:100%;
 	margin-left: 10px;
 	background-color: rgb(205, 227, 240);
-	-webkit-border-radius:70px;
-	-moz-border-radius:70px;
-	-o-border-radius:70px;
-	border-radius:70px;
+	border-radius:20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -56,8 +97,11 @@ body{
 }
 
 #picid{
-	width: 180px;
-	height: 180px;
+	display: flex;
+	object-fit: cover;
+	object-position: 5px -50px;
+	width: 100%;
+	height: 100%;
 		-webkit-border-radius:100px;
 	-moz-border-radius:100px;
 	-o-border-radius:100px;
@@ -81,8 +125,8 @@ body{
 
 #contact
 {
-	width:30vw;
-	height:18vh;
+	width:35vw;
+	height:100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -90,6 +134,13 @@ body{
 	font-family: Nunito;
 	color: white;
 
+}
+#contact2{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -164,20 +215,41 @@ progress-bar[value] {
 .flag2{
 	height: 5vh;
 	width: 42.5vw ;
+	font-size: 1.2em;
+}
+
+.flag2 > p {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
 }
 
 #flag
 {
-	height: 3vh;
-	width: 2vw ;
+	height: 50px;
+	width: 80px ;
 	display: flex;
+	object-fit: cover;
 	flex-direction: row;
 	justify-content: flex-start;
+	overflow: hidden;
 }
 
 img {
-	max-width: 80%;
-	height: auto;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+span > img {
+	height: 100px;
+	width: 100px;
+}
+span > P {
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 
 p > img
@@ -218,4 +290,13 @@ ul, li{
 #file{
 	display: flex;
 	justify-content: center;
+}
+
+
+.space-even{
+	justify-content: space-evenly;
+}
+
+.align{
+	align-items: center;
 }
