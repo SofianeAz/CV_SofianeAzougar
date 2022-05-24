@@ -9,14 +9,17 @@
 <body>
      <div>
           <div id="top">
-               <div id="photo"><img src="img/1652299097753.jpg" id="picid"/></div>
+               <div id="photo">
+                    <img src="img/1652299097753.jpg" id="picid"/>
+               </div>
                <div id="profile">
                     <h1> Sofiane AZOUGAR </h1>
-                    <h2>  Développeur Web </h2>
-                    <h3 class="flexrow column align w100">&nbsp;Novice dans l'informatique et débutant dans le code, je souhaite me consacrer totalement au web development et devenir un expert dans le domaine.</h3>
+                    <h2 class="padding-1">  Développeur Web </h2>
+                    <h3 class="flexrow column align w100">
+                    &nbsp;Novice dans l'informatique et débutant dans le code, je souhaite me consacrer totalement au web development et devenir un expert dans le domaine.</h3>
                </div>
                <div id="contact" class="flexcol space-even">
-                    <h2>Contact</h2>
+                    <h1>Contact</h1>
                          <div id="contact2">
                               <div class="flexrow space-around align w100"><i class="flexrow justify align bi bi-telephone w10"></i><p class="flexrow w100">&nbsp;&nbsp;07 81 21 01 36</p></div>
                               <div class="flexrow space-around align w100"><i class="flexrow justify align bi bi-envelope w10"></i><p class="w100">&nbsp;&nbsp;Sofiane.Azougar@gmail.com</p></div>
@@ -25,34 +28,47 @@
                          </div>
                </div>
           </div>
-          <div id="mid">
-               <div id="midleft">
-
-               </div>
-               <div id="mid2">
+          <div class="container space-even w100">
+               <div class="container col w50 margin-1">
                     <br/>
-                    <div class="col"> <h2 class="midtitles">COMPETENCES</h2>
-                         <br/>
+                    <div class="container col"> 
+                         <h2 class="container w100 justify margin-bot-1">COMPETENCES</h2>
                          <div class="flexrow space-even"> 
-                              <div class="flexrow column align">
+                              <div class="flexrow column align margin-1">
                                         <h3>Front-End</h3>
                                         <h4 class="blue-font">Langages</h4>
                                         <p>  HTML5, CSS3, JS, SCSS.</p><br>
                                         <h4 class="blue-font">Librairies / Frameworks</h4>
-                                        <p>BootStrap, React.Js, Vue.Js, W3CSS</p>
+                                        <p>BootStrap, React.Js, Vue.Js, W3CSS </p>
                               </div>
-                              <div class="flexrow column align">
+                              <div class="flexrow column align margin-1">
                                    <h3>Back-End</h3>
                                    <h4 class="blue-font">Langages</h4>
                                    <p>  PHP8, MySQL.</p><br>
                                    <h4 class="blue-font">Librairies / Frameworks</h4>
                                    <p>Laravel, Symfony, NodeJS</p>
                               </div>
-                         
                          </div>
+                         
+                         <h3 class="container w50 blue-font justify align-self-center margin-1 padding-1">NIVEAUX DE COMPETENCES</h3>
+                         <div class="flexrow space-even">           
+                              <div id="powerbars">
+                                   <label for="file">HTML5 / CSS3: </label><progress id="file" max="100" value="95"> 95% </progress>
+                                   <label for="file">JavaScript: </label><progress id="file" max="100" value="90"> 90% </progress>
+                                   <label for="file">PHP8 : </label><progress id="file" max="100" value="90"> 90% </progress>
+                                   <label for="file">MYSQL : </label><progress id="file" max="100" value="90"> 90% </progress>
+                               
+                              </div>
+                              <div id="powerbars">
+                                   <label for="file">React.js: </label><progress id="file" max="100" value="50"> 50% </progress>
+                                   <label for="file">Laravel: </label><progress id="file" max="100" value="50"> 50% </progress>
+                               
+                              </div>
                     </div>
-                    <div class="col"> <h2 class="midtitles">EXPERIENCES</h2>
-                         <br/>
+                    </div>
+                    <br/>
+                    <div class="container col"> 
+                                   <h2 class="container justify margin-bot-1">EXPERIENCES</h2>
                                    <ul class="flexrow column align justify">
                                         <h3 class="flexrow justify w100"> Visitez mon portfolio - www.sofianeaz.com</h3><br/>
                                         <p class="flexrow  w70"> 2022 Stage en entreprise - SI Consulting Nancy - Developpement web</p>
@@ -62,55 +78,73 @@
                                    </ul>
                     </div>
                     <br/>
-                    <div class="col"> <h2 class="midtitles">NIVEAUX DE COMPETENCES</h2> 
-                         <br/>            
-                         <div class="flexrow space-even">           
-                                   <div id="powerbars">
-                                        <label for="file">HTML5 / CSS3: </label><progress id="file" max="100" value="95"> 95% </progress>
-                                        <label for="file">JavaScript: </label><progress id="file" max="100" value="90"> 90% </progress>
-                                        <label for="file">PHP8 : </label><progress id="file" max="100" value="90"> 90% </progress>
-                                        <label for="file">MYSQL : </label><progress id="file" max="100" value="90"> 90% </progress>
-                                    
-                                   </div>
-                                   <div id="powerbars">
-                                        <label for="file">React.js: </label><progress id="file" max="100" value="50"> 50% </progress>
-                                        <label for="file">Laravel: </label><progress id="file" max="100" value="50"> 50% </progress>
-                                    
-                                   </div>
-                         </div>
+                    <div class="container col justify align">
+                          <h2 class="container w100 justify">AUTRES</h2> 
+                         <br/>   
+                         <p class="text-justify padding-1">   
+                              CMS (WordPress, Drupal, Prestashop)
+                         </p>  
+                         <p class="text-justify padding-1">   
+                              Expérience de travail en Méthode Agile
+                         </p>      
+                   
                     </div>
                </div>
-               <div id="mid3">
+               <!-- 3eme colonne du mid -->
+               <div class="container col w50 margin-1">
                     <br/>
-                    <div class="col"><h2 class="midtitles">LANGUES</h2>
-                         <br/>
+                    <div class="container col">
+                         <h2 class="container justify margin-bot-1">LANGUES</h2>
                          <ul>
                               <div class="flag2 flexrow space-even align"><img src="img/drapeau-france.jpg" id="flag" /> <p class="blue-font"> Français / Courant</p></div>
                               <div class="flag2 flexrow space-even align"><img src="img/drapeau-anglais.jpg" id="flag" />  <p> Anglais /  Courant</p></div>
                          </ul>
 
                     </div>
-                    <div class="col"><h2 class="midtitles">FORMATION</h2>
+                    <div class="container col">
+                              <h2 class="container justify">FORMATION</h2>
                               <div class="flexrow column align justify"><br/>
                                   <h4 class="w100">Formation niveau BAC+2 Developpement web et web mobile (Frontend & Backend) - AFPA Pompey.</h4><br/>
                                   <h4 class="w100">BAC PRO: Telecommunication & Reseau - Lycée pro. Jean Prouvé à Nancy.</h4><br/>
                                   <h4 class="w100">BEP Electronique - Lycée pro. Jean Prouvé à Nancy.</h4><br/>
                               </div>
+                         
 
                                               
                      </div>
-                    <div class="col"><h2 class="midtitles">CENTRES D'INTERET</h2>
-                         <br/>
-                         <div id="interest">
+                     <div class="container col">
+                         <h2 class="container justify">AGILITE</h2>
+                         <p class="text-justify padding-1">
+                         &nbsp;&nbsp;Polyvalent, je maîtrise les différentes étapes techniques de la création d’un site ou d’une application web </p>
+                         <p class="text-justify padding-1">
+                          &nbsp;&nbsp;La compréhension des besoins utilisateurs (Users Stories).<br/>
+                          </p>
+                          <p class="text-justify padding-1">
+                          &nbsp;&nbsp;L'établissement du cahier des charges, du dictionnaire de données ainsi que la documentation technique.<br/>
+                         </p>
+                         <p class="text-justify padding-1">
+                          &nbsp;&nbsp;La méthode Merise, création de MCD / MLD / MPD.
+                         </p>
+                         <p class="text-justify padding-1">
+                          &nbsp;&nbsp;Le développement de la partie Frontend en respectant la notion de Mobile First. 
+                         </p>
+                         <p class="text-justify padding-1">
+                         &nbsp;&nbsp;Le développement Backend en utilisant un modèle d'architecture MVC en passant par la maintenance.
+                         </p>
+                         <p class="container justify padding-1">
+                          &nbsp;&nbsp;Don't Repeat Yourself
+                         </p>
+                    </div>
+                    
+                    <div class="container col">
+                         <h2 class="container justify">CENTRES D'INTERET</h2>
+                         <div class="container space-even padding-1">
                                    <span> <img src="img/football.png"/><p class="blue-font"> Football </p> </span>
                                    <span> <img src="img/esports.png"/><p class="blue-font">eSports</p> </span>
                                    <span> <img src="img/voyages.png"/><p class="blue-font">Voyages</p> </span>
                                    <span> <img src="img/cafe.png"/><p class="blue-font">Café</p> </span>
                                    <span> <img src="img/netflix.png"/><p class="blue-font">Netflix</p></span>
                              </div>
-                         <br/>
-                    </div>
-                    <div id="midright">
                     </div>
                </div>
           </div>
